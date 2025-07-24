@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+    content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bdy">
+    <div class="conatiner">
+        <h2>Login</h2>
+        <form action="./index.html" method="get">
+            <div class="form-group">
+                <input type="text" id="n" required>
+                <label for="n">First Name</label>
+            </div>
+            <div class="form-group">
+                <input id="l" type="text" required>
+                <label for="l">Last Name</label>
+            </div>
+            <div class="form-group">
+                <input type="number" id="p" required >
+                <label for="p">Phone Number</label>
+            </div>
+            <br />
+            <div class="Form-group">
+                <input type="radio" name="gender" id="male" required>
+                <label for="male">Male</label>
+                <br />
+                 <input type="radio" name="gender" id="male" required>
+                <label for="male">Femail</label>
+            </div>
+            <br />
+            <p><input type="checkbox">Remember Me, <a href="#">Sign up</a></p>
+            <button id="btn">Submit</button>
+            <p>Don't have a account? <a href="#">Register</a></p>
+        </form>
+    </div>
+</body>
+</html>
